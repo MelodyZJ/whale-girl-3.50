@@ -4,9 +4,6 @@ config.json
 wechatauto_logs/
 wechatauto_db/
 
-# 包内自带的 Node 运行时（发行包用，不入库）
-runtime/node.exe
-
 # 依赖 / 缓存
 node_modules/
 __pycache__/
@@ -28,3 +25,7 @@ Thumbs.db
 # 微信安装包 / 本地工具（tools/ 是项目自己的热键脚本，要入库）
 vendor/
 scripts/node-path.local
+
+# 包内自带的运行时（要入库；覆盖上方 __pycache__ / *.zip / *.py[cod] 等全局规则）
+!runtime/
+!runtime/**
