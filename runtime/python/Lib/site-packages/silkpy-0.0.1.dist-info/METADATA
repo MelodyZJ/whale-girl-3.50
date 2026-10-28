@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: silkpy
+Version: 0.0.1
+Summary: Silkpy is planned to be a math package for curves and surfaces which are classical objects of differential geometry. Silk, in Chinese, is a kind of soft clothe material with intervined perpendicular lines of longitude and latitude. The lines are named '丝 si' while the clothe is named '绸 chou', which are metaphors for the 'curve' and 'surface' in differential geometry.
+Home-page: https://github.com/WenyinWei/silkpy
+Author: Wenyin Wei
+Author-email: wenyin.wei@ipp.ac.cn
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# silkpy
+Silkpy is planned to be a math package for differential geometry, "silk" is a kind of soft clothe material which has lines of longitude and latitude and here it imply the manifold.
+
+
